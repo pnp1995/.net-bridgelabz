@@ -32,12 +32,12 @@ namespace Algorithm
                         int mid = (first + last) / 2;
                         Console.WriteLine("is your no. less than or equal to"+ array[mid]+ "?(y/n)");
                         ch = Convert.ToChar(Console.ReadLine());
-                        if (ch == 'y' || ch == 'N')
+                        if (ch == 'y' || ch == 'Y')
                         {
                             last = mid;
                             Console.WriteLine("is" + array[mid] + "your number?(y/n)");
                             ch = Convert.ToChar(Console.ReadLine());
-                            if (ch == 'y' || ch == 'N')
+                            if (ch == 'y' || ch == 'Y')
                             {
                                 Console.WriteLine("Number is found" + array[mid]);
                                 break;
@@ -49,7 +49,7 @@ namespace Algorithm
                         first = mid;
                         Console.WriteLine("is" + array[mid] + "your number?(y/n)");
                         ch = Convert.ToChar(Console.ReadLine());
-                        if (ch == 'y' || ch == 'N')
+                        if (ch == 'y' || ch == 'Y')
                         {
                             Console.WriteLine("Number is found" + array[mid]);
                             break;
