@@ -1,13 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file=BankingCAshCounter.cs" company="Bridgelabz">
+//   Copyright © 2019 Company="BridgeLabz"
+// </copyright>
+// <creator name="Priyanand Pritam"/>
+// --------------------------------------------------------------------------------------------------------------------
 
 namespace DataStructure
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Text;
     class BankingCashCounter
     {
         utility utility = new utility();
-        internal static int InitialAmount;
+        internal static int InitialAmount= 50000;
         public void CashCounter()
         {
             try
@@ -26,11 +32,11 @@ namespace DataStructure
                     {
                         case 1:
                             utility.DepositCash(bankdata);
-                            Console.WriteLine("Update cash available on your bank after Deposits = Rs-" + InitialAmount);
+                            Console.WriteLine("Update cash available on your bank after Deposits = Rs." + InitialAmount);
                             break;
                         case 2:
                             utility.WithDrawalCash(bankdata);
-                            Console.WriteLine("your available Balance after withdrawal = Rs-" + InitialAmount);
+                            Console.WriteLine("your available Balance after withdrawal = Rs." + InitialAmount);
                             break;
                     }
                     Console.WriteLine("Do you want to continue then press y");

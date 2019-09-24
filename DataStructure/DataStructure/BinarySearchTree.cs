@@ -1,12 +1,23 @@
-﻿
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file=BinarySearchTree.cs" company="Bridgelabz">
+//   Copyright © 2019 Company="BridgeLabz"
+// </copyright>
+// <creator name="Priyanand Pritam"/>
+// --------------------------------------------------------------------------------------------------------------------
 namespace DataStructure
 {
     using System;
     using System.Collections.Generic;
     using System.Text;
+    /// <summary>
+    /// Binary Search tree is a class i have created binary tree method for binary operation.
+    /// </summary>
     class BinarySearchTree
     {
         utility utility = new utility();
+        /// <summary>
+        /// Binaries the tree.
+        /// </summary>
         public static void BinaryTree()
         {
             try
