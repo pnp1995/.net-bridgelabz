@@ -11,7 +11,7 @@ namespace DataStructure
     using System.Collections.Generic;
     using System.Text;
     /// <summary>
-    /// 
+    /// Utility is a class i have created different method for different operayion.
     /// </summary>
     class utility
     {

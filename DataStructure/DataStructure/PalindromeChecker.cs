@@ -1,9 +1,16 @@
-﻿
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file=PalindromeChecker.cs" company="Bridgelabz">
+//   Copyright © 2019 Company="BridgeLabz"
+// </copyright>
+// <creator name="Priyanand Pritam"/>
+// --------------------------------------------------------------------------------------------------------------------
 namespace DataStructure
 {
     using System;
+    using System.Collections.Generic;
+    using System.Text;
     /// <summary>
-    /// 
+    /// Palindrome is a class where i have created Checker class.
     /// </summary>
     class PalindromeChecker
     {

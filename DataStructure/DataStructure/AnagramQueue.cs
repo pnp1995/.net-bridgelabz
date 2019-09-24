@@ -1,15 +1,23 @@
-﻿
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file=AnagramQueue.cs" company="Bridgelabz">
+//   Copyright © 2019 Company="BridgeLabz"
+// </copyright>
+// <creator name="Priyanand Pritam"/>
+// --------------------------------------------------------------------------------------------------------------------
 namespace DataStructure
 {
     using System;
     using System.Collections.Generic;
     using System.Text;
     /// <summary>
-    /// 
+    /// AnagramQueue is a class i have created PrimeAnagramQueue is method.
     /// </summary>
     class AnagramQueue
     {
-    public void PrimeAnagramQueue()
+        /// <summary>
+        /// Primes the anagram queue.
+        /// </summary>
+        public void PrimeAnagramQueue()
         {
             //// try and catch are used to handle the exception.
             try
@@ -120,9 +128,5 @@ namespace DataStructure
             return false;
         }
     }
-}
-
-
-        
-    
+}       
 

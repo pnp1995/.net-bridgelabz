@@ -1,10 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Text;
-
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file=BalancedParenthesis.cs" company="Bridgelabz">
+//   Copyright © 2019 Company="BridgeLabz"
+// </copyright>
+// <creator name="Priyanand Pritam"/>
+// --------------------------------------------------------------------------------------------------------------------
 namespace DataStructure
 {
+    using System;
+    using System.Collections.Generic;
+    using System.IO;
+    using System.Text;
     class BalancedParentheses
     {
         utility utility = new utility();

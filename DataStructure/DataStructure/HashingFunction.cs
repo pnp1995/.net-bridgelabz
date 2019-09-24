@@ -15,6 +15,11 @@ namespace DataStructure
     {
         utility utility = new utility();
         public int[,] HashList = new int[10, 10];
+        /// <summary>
+        /// Calculates the hash.
+        /// </summary>
+        /// <param name="mylist">The mylist.</param>
+        /// <returns></returns>
         public int[,] CalculateHash(List<int> mylist)
         {
             foreach (int element in mylist)

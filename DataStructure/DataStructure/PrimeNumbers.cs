@@ -9,7 +9,9 @@ namespace DataStructure
     using System;
     using System.Collections.Generic;
     using System.Text;
-
+    /// <summary>
+    /// PrimeNumbers is a class 
+    /// </summary>
     class PrimeNumbers
     {
         int[,] primeNumber = new int[10, 1000];
