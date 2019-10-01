@@ -13,10 +13,8 @@ using System.Text;
 
 namespace ObjectOrientedPrograms.AddressBook
 {
-    class AddressBookDetails
-    {
-        internal static AddressBookDetails operation;
-
+   public class AddressBookDetails:IAddressBookDetails
+    { 
         public void Operation(string book)
         {
             string message = null;
@@ -129,5 +127,9 @@ namespace ObjectOrientedPrograms.AddressBook
             }
         }
 
+        public void Opertaion(string book)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
